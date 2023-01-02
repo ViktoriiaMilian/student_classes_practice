@@ -5,5 +5,8 @@ public class ScienceStudent {
 
 
     //HERE! Create a 5 args constructor that chains super class constructor
+    public ScienceStudent(String firstName, String lastName, int age, String gender, String className) {
+        super(firstName, lastName, age, gender, className);
+    }
 
 }
